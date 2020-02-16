@@ -7,5 +7,6 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="400dp"
-        android:text="Hi, Your Detailed notification view goes here...." />
+        android:text="Hi, Your Detailed notification view goes here...."
+        android:background="#8EE2D4"/>
 </LinearLayout>
