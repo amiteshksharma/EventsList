@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EventsList</string>
+    <string name="action_settings">Settings</string>
+    <string name="already_a_user_sign_in_here">Already a user? Sign in here</string>
+    <string name="not_a_user_sign_up_here">Not a user? Sign up here</string>
+    <string name="channel_name">\"notification\"</string>
+    <string name="channel_description">\"New event notify\"</string>
+    <string name="title_activity_event_layout">EventLayout</string>
+</resources>

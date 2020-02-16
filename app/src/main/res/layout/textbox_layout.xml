@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#414040"
+    android:orientation="vertical"
+    tools:context=".CreateNoteActivity">
+
+    <EditText
+        android:id="@+id/titleEvent"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="top"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="542dp"
+        android:background="@drawable/round_text_corner"
+        android:backgroundTint="#EE7A7878"
+        android:ems="10"
+        android:gravity="center|left"
+        android:hint="Title"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/descriptionEvent"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="315dp"
+        android:background="@drawable/round_text_corner"
+        android:backgroundTint="#EE7A7878"
+        android:ems="10"
+        android:hint="Enter description"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/locationEvent"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="155dp"
+        android:background="@drawable/round_text_corner"
+        android:backgroundTint="#EE7A7878"
+        android:ems="10"
+        android:hint="Location"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
