@@ -145,4 +145,9 @@ public class MainActivity extends AppCompatActivity implements NotesAdapter.OnNo
         }).create().show();
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        getTiles();
+    }
 }
