@@ -150,4 +150,9 @@ public class MainActivity extends AppCompatActivity implements NotesAdapter.OnNo
         super.onResume();
         getTiles();
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
 }
