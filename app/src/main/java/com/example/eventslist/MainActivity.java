@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements NotesAdapter.OnNo
         FirebaseDatabase.getInstance().getReference().child("Tiles").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                list = new ArrayList<>();
                 List<NoteValues> temp = new ArrayList<>();
                 for (final DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     NoteValues noteValues = new NoteValues();

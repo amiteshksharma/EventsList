@@ -71,8 +71,7 @@ public class CreateNoteActivity extends AppCompatActivity {
         int id = item.getItemId();
         if (id == R.id.createNote) {
             saveNotes();
-            super.onBackPressed();
-            return true;
+            finish();
         }
         return super.onOptionsItemSelected(item);
     }
